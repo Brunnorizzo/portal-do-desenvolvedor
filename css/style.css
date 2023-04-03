@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 88px;
+  }
+
+    .navbar-brand {
+        margin: 16px 0px 16px 40px;
+      }
+    
+    #navbarNav {
+        margin-left: 24px;
+        font-size: 16px;
+        font-weight: 700;
+        color: blueviolet;
+      }
+    
+    /*.navbar-nav .nav-item:(.active) {
+        color: #230C87;
+      }
+    
+    .navbar-nav .nav-item:not(.active) {
+        color: #666666;
+      }*/
