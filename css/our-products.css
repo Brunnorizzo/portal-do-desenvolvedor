@@ -19,11 +19,6 @@ h2 {
 }
 
 /* Conteúdo */
-#main-container {
-  max-width: 100% !important;
-  margin: 0;
-  padding: 0;
-}
 #container-banner {
   background-image: url("../img/img-our-products-banner.png");
   background-size: 100%;
@@ -31,7 +26,8 @@ h2 {
   background-repeat: no-repeat;
   text-align: center;
   height: 400px;
-  margin: 0;
+  margin: 0px;
+  margin-top: -15px;
   background-color: #FFF;
 }
 
@@ -48,12 +44,14 @@ h2 {
 
 #our-products-white-label {
   margin: 0;
-  height: 408px;
+  height: 352px;
+  margin-right: -120px;
 }
 
 #our-products-co-branded {
-  margin: 0;
-  height: 408px;
+  margin: 0; 
+  height: 352px;
+  margin-left: -120px;
 }
 
 .text-our-products {
@@ -97,6 +95,7 @@ h2 {
   background-size: cover;
   background-position: center;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
+  width: 752px;
 }
 
 .background-div-co-branded {
