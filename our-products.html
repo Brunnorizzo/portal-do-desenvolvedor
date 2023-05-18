@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Veloe - Portal do Desenvolvedor</title>
+	<!-- Adicionando o arquivo CSS do Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- Adicionando o arquivo CSS da Página -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/our-products.css" type="text/css">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+	<!-- Cabeçalho -->
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="#"><img src="img/logo-veloe-azul-escuro.svg" alt="Logo Veloe"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active" id="ativo">
+						<a class="nav-link" id="a-ativo" href="#">Início</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Produtos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">APIs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Parceiro</a>
+					</li>
+				</ul>
+			</div>
+            <div class="ml-auto">
+                <button class="btn btn-outline-primary" id="entrar">Entrar</button>
+                <button class="btn btn-primary" id="cadastrar">Cadastrar</button>
+            </div>			
+		</nav>
+	</header>
+
+	<!-- Conteúdo -->
+    <div class="jumbotron jumbotron-fluid text-center mb-0" id="container-banner">
+        <div class="container">
+        </div>
+    </div>
+	<main class="container" id="main-container">
+		<h1 class="text-center">Nossos Produtos</h1>
+		<img src="img/img-our-products-title.svg" alt="Parte do Logo Veloe" class="mx-auto d-block">
+		<p class="text-center">Ofereça aos seus clientes um jeito pratico e seguro de passar em pedágios e estacionamentos com as soluções White Label e Cobranded Veloe</p>
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="text-our-products">
+					<h2>White Label</h2>
+					<p class="text-left">Ofereça aos seus clientes uma tag com a marca de sua empresa</p>
+					<button class="btn btn-primary" id="saiba-mais">Saiba mais</button>
+				</div>
+			</div>
+			<div class="col-md-6 background-div-white-label">
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6 background-div-co-branded">
+			</div>
+			<div class="col-md-6">
+				<div class="text-our-products">
+					<h2>Co-branded</h2>
+					<p class="text-left">Ofereça aos seus clientes uma tag Veloe personalizada</p>
+					<button class="btn btn-primary" id="saiba-mais">Saiba mais</button>
+				</div>
+			</div>
+		</div>		
+	</main>
+
+	<!-- Rodapé -->
+	<footer>
+		<div class="container">
+		  <div class="row">
+			<div id="footer-brand" class="col-6">
+			  <a href="#"><img src="img/logo-veloe-azul-claro.svg" alt="Logo Veloe"></a>	
+			  <p class="footer-p-direitos">© Todos os direitos reservados - Veloe 2023</p>
+			</div>
+			<div class="col-6 text-right">
+			  <p class="footer-p-redes-sociais">Redes sociais</p>
+			  <a class="footer-a-redes-sociais" href="#"><img src="img/logo-instagram-branco.svg" alt="Rede Social: Instagram" /></a>
+			  <a class="footer-a-redes-sociais" href="#"><img src="img/logo-facebook-branco.svg" alt="Rede Social: Facebook" /></a>
+			  <a class="footer-a-redes-sociais" href="#"><img src="img/logo-youtube-branco.svg" alt="Rede Social: YouTube" /></a>
+			  <a class="footer-a-redes-sociais" href="#"><img src="img/logo-twitter-branco.svg" alt="Rede Social: Twitter" /></a>
+			  <a href="#"><img src="img/logo-github-branco.svg" alt="Rede Social: GitHub" /></a>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+	<!-- Adicionando o arquivo JavaScript do Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
