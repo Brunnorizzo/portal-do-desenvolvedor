@@ -1,0 +1,93 @@
+  /* Conteúdo */
+  #container-banner {
+    background-image: url("../img/img-fundo-banner.svg");
+    background-size: 1440px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #25D6E9;
+    text-align: center;
+    height: 400px;
+  }
+
+  #container-banner p {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #150750;
+    margin-top: 16px;
+  }  
+
+  #saiba-mais {
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    width: 128px;
+    height: 56px;
+    background: #230C87;
+    border: 0px;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #container-nossos-produtos {
+    padding: 0;
+    margin-left: -24px;
+    margin-right: 24px;
+    margin-top: 64px;
+    width: 408px;
+    height: 336px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-bottom: 80px;
+  }
+
+  #container-nossos-produtos a {
+    text-decoration: none;
+  }
+
+  #container-apis {
+    padding: 0;
+    margin-top: 64px;
+    width: 408px !important;
+    height: 336px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-bottom: 80px;
+  }
+
+  #container-apis a {
+    text-decoration: none;
+  }  
+
+  #container-parceiro {
+    margin-left: 24px;
+    margin-right: -24px;
+    padding: 0;
+    margin-top: 64px;
+    width: 416px;
+    height: 336px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-bottom: 80px;
+  }
+
+  .img-fluid {
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  #container-parceiro a {
+    text-decoration: none;
+  }
+
+  .container-p {
+    text-align: left;
+    margin: 16px 0px 0px 32px;
+    font-size: 16px;
+    color: #292929;
+  }

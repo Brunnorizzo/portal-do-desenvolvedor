@@ -24,205 +24,112 @@ h3 {
   margin: 32px 0px 0px 32px;  
 }
 
-  /* Cabeçalho */
-  header {
-      background-color: #FFFFFF !important;
-      height: 88px;
-      padding: 0;
-      
-    }
-      nav {
-        background-color: #FFFFFF !important;
-        height: 88px;
-        padding: 0;        
-        box-shadow: 1px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-       } 
-      
-      .navbar {
-        height: 88px;
-        padding: 0;
-       }
+/* Cabeçalho */
+header {
+  background-color: #FFFFFF !important;
+  height: 88px;
+  padding: 0;
+}
 
-      .navbar-brand {
-        margin: 16px 0px 16px 40px;
-        }
-      
-      #navbarNav {
-          height: 88px;
-          padding: 0;
-          margin-left: 24px;
-          font-size: 16px;
-          font-weight: 700;
-        }
-      
-      .nav-link {
-          color: #666666;
-          border-bottom: solid 4px transparent;
-          padding-top: 30px;
-          padding-bottom: 30px;
-        }
+nav {
+  background-color: #FFFFFF !important;
+  height: 88px;
+  padding: 0;        
+  box-shadow: 1px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
+} 
 
-      #ativo {
-          height: 88px;        
-          border-bottom: solid 4px #230C87;
-          padding-bottom: -8px;
-        }        
+.navbar {
+  height: 88px;
+  padding: 0;
+}
 
-        #a-ativo {
-          color: #230C87 !important;
-        }      
+.navbar-brand {
+  margin: 16px 0px 16px 40px;
+}
 
-      .nav-link:hover {
-        color: #230C87;
-        border-bottom: solid 4px #230C87;
-      }        
+#navbarNav {
+  height: 88px;
+  padding: 0;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
 
-        #entrar {
-          align-items: center;
-          width: 96px;
-          height: 56px;
-          background: #FFFFFF;
-          border: 2px solid #230C87;
-          border-radius: 50px;
-          font-family: 'Open Sans', sans-serif;
-          color: #230C87;
-          font-size: 14px;
-          font-weight: 700;
-        }
+.nav-link {
+  color: #666666;
+  border-bottom: solid 4px transparent;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
-        #cadastrar {
-          margin-left: 24px;
-          margin-right: 40px;
-          justify-content: center;
-          align-items: center;
-          padding: 16px 0px;
-          width: 120px;
-          height: 56px;
-          background: #230C87;
-          border: 0px;
-          border-radius: 50px;
-          font-family: 'Open Sans', sans-serif;
-          font-size: 14px;
-          font-weight: 700;
-        }
+#ativo {
+  height: 88px;        
+  border-bottom: solid 4px #230C87;
+  padding-bottom: -8px;
+}        
 
-  /* Conteúdo */
-  #container-banner {
-    background-image: url("../img/img-fundo-banner.svg");
-    background-size: 1440px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #25D6E9;
-    text-align: center;
-    height: 400px;
-  }
+#a-ativo {
+  color: #230C87 !important;
+}      
 
-    #container-banner p {
-      font-size: 16px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: #150750;
-      margin-top: 16px;;
-    }  
+.nav-link:hover {
+  color: #230C87;
+  border-bottom: solid 4px #230C87;
+}        
 
-    #saiba-mais {
-      margin-top: 32px;
-      justify-content: center;
-      align-items: center;
-      padding: 16px 0px;
-      width: 128px;
-      height: 56px;
-      background: #230C87;
-      border: 0px;
-      border-radius: 50px;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
-      font-weight: 700;
-    }
+#entrar {
+  align-items: center;
+  width: 96px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 2px solid #230C87;
+  border-radius: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #230C87;
+  font-size: 14px;
+  font-weight: 700;
+}
 
-  #container-nossos-produtos {
-    padding: 0;
-    margin-left: -24px;
-    margin-right: 24px;
-    margin-top: 64px;
-    width: 408px;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
+#cadastrar {
+  margin-left: 24px;
+  margin-right: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  width: 120px;
+  height: 56px;
+  background: #230C87;
+  border: 0px;
+  border-radius: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
 
-    #container-nossos-produtos a {
-      text-decoration: none;
-    }
+/* Rodapé */
+footer {
+  height: 192px;
+  background-color: #230C87;
+}
 
-  #container-apis {
-    padding: 0;
-    margin-top: 64px;
-    width: 408px !important;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
+#footer-brand {
+  margin: 64px 0px 0px 0px;
+}
 
-    #container-apis a {
-      text-decoration: none;
-    }  
+footer p {
+  color: #F5F5F5;
+  font-size: 14px;
+}    
 
-  #container-parceiro {
-    margin-left: 24px;
-    margin-right: -24px;
-    padding: 0;
-    margin-top: 64px;
-    width: 416px;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
-    .img-fluid {
-      border-radius: 8px 8px 0px 0px;
-    }
-  
-    #container-parceiro a {
-      text-decoration: none;
-    }
+.footer-p-direitos {
+  margin-top: 16px;
+}
 
-    .container-p {
-      text-align: left;
-      margin: 16px 0px 0px 32px;
-      font-size: 16px;
-      color: #292929;
-    }
+.footer-p-redes-sociais {
+  margin-top: 64px;
+  margin-right: 144px;
+}
 
-  /* Rodapé */
-  footer {
-    height: 192px;
-    background-color: #230C87;
-  }
-
-    #footer-brand {
-      margin: 64px 0px 0px 0px;
-    }
-
-    footer p {
-      color: #F5F5F5;
-      font-size: 14px;
-    }    
-
-      .footer-p-direitos {
-        margin-top: 16px;
-      }
-
-      .footer-p-redes-sociais {
-        margin-top: 64px;
-        margin-right: 144px;
-      }
-
-      .footer-a-redes-sociais {
-        margin-right: 24px;
-      }
+.footer-a-redes-sociais {
+  margin-right: 24px;
+}

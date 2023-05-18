@@ -1,210 +1,107 @@
-  /* Conteúdo */
-  #container-banner {
-    background-image: url("../img/img-our-products-banner.png");
-    background-size: 1440px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #25D6E9;
-    text-align: center;
-    height: 400px;
-  }
+h1 {
+  font-family: 'Galano Grotesque Alt', sans-serif;
+  text-align: center;
+  font-size: 48px;
+  color: #110642;
+  font-weight: 700;
+  line-height: 62px;    
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
 
-  h1 {
-    font-family: 'Galano Grotesque Alt', sans-serif;
-    text-align: center;
-    font-size: 48px;
-    color: #110642;
-    font-weight: 700;
-    line-height: 62px;    
-    margin-top: 80px;
-    margin-bottom: 16px;
-  }
+h2 {
+  font-family: 'Galano Grotesque Alt', sans-serif;
+  text-align: left;
+  font-size: 32px;
+  color: #150750;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
 
-  .text-center {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 14px;
-    color: #292929;
-    font-weight: 400;
-    line-height: 24px;    
-    margin-top: 40px;
-    margin-bottom: 80px;
-  }
+/* Conteúdo */
+#main-container {
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+#container-banner {
+  background-image: url("../img/img-our-products-banner.png");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+  margin: 0;
+  background-color: #FFF;
+}
 
-  .row {
-    margin: 0;
-    height: 304px;
-  }
+.text-center {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 24px;    
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
 
-  .text-our-products {
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    font-size: 14px;
-    color: #292929;
-    font-weight: 400;
-    line-height: 24px;    
-    margin-top: 80px;
-    margin-left: 80px;
-  }
+#our-products-white-label {
+  margin: 0;
+  height: 408px;
+}
 
-  h2 {
-    font-family: 'Galano Grotesque Alt', sans-serif;
-    text-align: left;
-    font-size: 32px;
-    color: #150750;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
+#our-products-co-branded {
+  margin: 0;
+  height: 408px;
+}
 
-  .text-left {
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    font-size: 16px;
-    color: #292929;
-    font-weight: 400;
-    line-height: 24px;    
-  }  
+.text-our-products {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 24px;    
+  margin-top: 80px;
+  margin-left: 80px;
+}
 
-  #saiba-mais {
-    margin-top: 32px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 16px 0px;
-    width: 120px;
-    height: 56px;
-    background: #230C87;
-    border: 0px;
-    border-radius: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-  }
+.text-left {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  color: #292929;
+  font-weight: 400;
+  line-height: 24px; 
+  height: 32px;   
+}  
 
-  .background-div-white-label {
-    background-image: url(../img/img-our-products-white-label.png);
-    background-size: cover;
-    background-position: center;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
-  }
+#saiba-mais {
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  width: 128px;
+  height: 56px;
+  background: #230C87;
+  border: 0px;
+  border-radius: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
 
-  .background-div-co-branded {
-    background-image: url(../img/img-our-products-co-brand.png);
-    background-size: cover;
-    background-position: left;
-    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);    
-  }
+.background-div-white-label {
+  background-image: url(../img/img-our-products-white-label.png);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
+}
 
-
-
-
-
-    #container-banner p {
-      font-size: 16px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: #150750;
-      margin-top: 16px;;
-    }  
-
-    #saiba-mais {
-      margin-top: 32px;
-      justify-content: center;
-      align-items: center;
-      padding: 16px 0px;
-      width: 128px;
-      height: 56px;
-      background: #230C87;
-      border: 0px;
-      border-radius: 50px;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-  #container-nossos-produtos {
-    padding: 0;
-    margin-left: -24px;
-    margin-right: 24px;
-    margin-top: 64px;
-    width: 408px;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
-
-    #container-nossos-produtos a {
-      text-decoration: none;
-    }
-
-  #container-apis {
-    padding: 0;
-    margin-top: 64px;
-    width: 408px !important;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
-
-    #container-apis a {
-      text-decoration: none;
-    }  
-
-  #container-parceiro {
-    margin-left: 24px;
-    margin-right: -24px;
-    padding: 0;
-    margin-top: 64px;
-    width: 416px;
-    height: 336px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.16), 0px 0px 1px 1px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin-bottom: 80px;
-  }
-    .img-fluid {
-      border-radius: 8px 8px 0px 0px;
-    }
-  
-    #container-parceiro a {
-      text-decoration: none;
-    }
-
-    .container-p {
-      text-align: left;
-      margin: 16px 0px 0px 32px;
-      font-size: 16px;
-      color: #292929;
-    }
-
-  /* Rodapé */
-  footer {
-    height: 192px;
-    background-color: #230C87;
-  }
-
-    #footer-brand {
-      margin: 64px 0px 0px 0px;
-    }
-
-    footer p {
-      color: #F5F5F5;
-      font-size: 14px;
-    }    
-
-      .footer-p-direitos {
-        margin-top: 16px;
-      }
-
-      .footer-p-redes-sociais {
-        margin-top: 64px;
-        margin-right: 144px;
-      }
-
-      .footer-a-redes-sociais {
-        margin-right: 24px;
-      }
+.background-div-co-branded {
+  background-image: url(../img/img-our-products-co-brand.png);
+  background-size: cover;
+  background-position: left;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);    
+}
